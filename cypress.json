@@ -1,0 +1,4 @@
+{
+    "baseUrl": "https://www.medicines.org.uk/emc/browse-companies",
+    "defaultCommandTimeout": 5000
+}
