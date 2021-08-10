@@ -62,7 +62,7 @@ context('test case', () => {
 
                     //save all information to file
                     cy.readFile(jsonFile).then((list) => {
-                        //merge data on both sides into one array
+                        //concat data on both sides into two arrays
                         recordData = recordData.concat(recordDataAlt);
                         //add image name
                         recordData.push("Image name");
